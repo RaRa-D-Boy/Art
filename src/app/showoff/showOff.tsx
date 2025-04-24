@@ -79,7 +79,7 @@ const ShowOff = () => {
                   <div className="flex flex-col justify-end">
                     <p className=" px-0 md:px-0 pt-12 text-justify">
                       {" "}
-                      Art is more than an object; it's an experience, a feeling,
+                      Art is more than an object; it&lsquo;s an experience, a feeling,
                       a connection. Every piece tells a story, speaks a
                       language, and stirs something deep within us. At Artilary,
                       we invite you to discover the work of artists who are
