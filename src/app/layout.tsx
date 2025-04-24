@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { ThemeContextProvider } from "./utils/theme/theme";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,10 +26,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <Script id="load-env-variables" strategy="beforeInteractive">
+        {`window["EXCALIDRAW_ASSET_PATH"] = location.origin;`}
+      </Script>
+        <ThemeContextProvider>{children}</ThemeContextProvider>
       </body>
     </html>
   );
