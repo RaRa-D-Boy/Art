@@ -30,7 +30,7 @@ const HomePage = () => {
               {" "}
               Artilary is a vibrant platform dedicated to showcasing the
               extraordinary works of artists and creatives from every corner of
-              the world. Whether you're here to discover awe-inspiring art, find
+              the world. Whether you&lsquo;re here to discover awe-inspiring art, find
               your next masterpiece, or fuel your creative journey, Artilary
               brings together visionaries who transform imagination into
               reality. Unleash your passion—let the world see your art.

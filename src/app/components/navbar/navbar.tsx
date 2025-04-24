@@ -2,10 +2,10 @@
 import Link from "next/link";
 import React, { useContext, useState } from "react";
 import { FiMinus, FiPlus } from "react-icons/fi";
-import { MdOutlineDraw } from "react-icons/md";
+
 import ThemeToggle from "@/app/utils/theme/themeToggle";
 import { ThemeContext } from "@/app/utils/theme/theme";
-import { FlipLink } from "../linkAnimated/animatedLink";
+
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);

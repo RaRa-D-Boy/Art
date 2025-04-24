@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import { AnimatePresence, motion } from "framer-motion";
 
+
 export default function Carousel() {
   const [idx, setIdx] = useState(0);
   const [prevIdx, setPrevIdx] = useState(idx);
@@ -84,28 +85,29 @@ export default function Carousel() {
 }
 
 const imgVariants = {
-  initial: (trend: any) => ({
+  initial: (trend: number) => ({
     x: trend === 1 ? "200%" : "-200%",
     opacity: 0,
   }),
   animate: { x: "-50%", opacity: 1 },
-  exit: (trend: any) => ({
+  exit: (trend: number) => ({
     x: trend === 1 ? "-200%" : "200%",
     opacity: 0,
   }),
 };
 
 const titleVariants = {
-  initial: (trend: any) => ({
+  initial: (trend: number) => ({
     y: trend === 1 ? 20 : -20,
     opacity: 0,
   }),
   animate: { y: 0, opacity: 1 },
-  exit: (trend: any) => ({
+  exit: (trend: number) => ({
     y: trend === 1 ? -20 : 20,
     opacity: 0,
   }),
 };
+
 
 const images = [
   {

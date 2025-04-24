@@ -2,7 +2,6 @@
 import { ThemeContext } from "@/app/utils/theme/theme";
 import React, { useContext } from "react";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import Image from "next/image";
 const Gallery = () => {
   const { theme } = useContext(ThemeContext);
 

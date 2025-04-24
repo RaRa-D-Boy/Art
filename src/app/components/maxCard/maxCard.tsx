@@ -26,16 +26,16 @@ const MaxCard = () => {
           </div>
           <div className="p-5">
             <p className="py-5 text-justify">
-              At Artilary, we believe that painting is not just a skill; it's an
-              expression of the soul. Whether you're an artist honing your
+              At Artilary, we believe that painting is not just a skill; it&lsquo;s an
+              expression of the soul. Whether you&lsquo;re an artist honing your
               craft, a collector seeking the perfect piece, or someone looking
-              to dive into the world of painting, you've found the right place.
+              to dive into the world of painting, you&lsquo;ve found the right place.
             </p>
             <p className="py-5 text-justify">
               Our painting collection showcases a wide array of artistic
               techniques—from the timeless elegance of oil painting to the bold
               vibrance of acrylics. Each brushstroke, each hue, tells a story of
-              dedication and vision. Whether you're a seasoned artist or a
+              dedication and vision. Whether you&lsquo;re a seasoned artist or a
               beginner, you can explore, purchase, or rent artwork that speaks
               to you. Every painting is a reflection of mastery, creativity, and
               passion.

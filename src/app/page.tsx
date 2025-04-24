@@ -1,4 +1,3 @@
-import Canvas from "./canvas/page";
 import Gallery from "./components/gallery/gallery";
 import MaxCard from "./components/maxCard/maxCard";
 import HomePage from "./home/page";
