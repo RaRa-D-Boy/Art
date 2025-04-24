@@ -3,7 +3,6 @@ import React, { useContext } from "react";
 import { ThemeContext } from "../utils/theme/theme";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import Image from "next/image";
-import BubbleText from "../components/bubble/bubblr";
 import Carousel from "../components/carousel/carousel";
 
 const ShowOff = () => {
