@@ -5,6 +5,7 @@ import { FiMinus, FiPlus } from "react-icons/fi";
 
 import ThemeToggle from "@/app/utils/theme/themeToggle";
 import { ThemeContext } from "@/app/utils/theme/theme";
+import { useRouter } from "next/navigation";
 
 
 const Navbar = () => {
@@ -13,6 +14,8 @@ const Navbar = () => {
   const handleDisplayMenu = () => {
     setShowMenu(!showMenu);
   };
+
+const router = useRouter()
 
   return (
     <section className="p-3 text-sm">
@@ -24,9 +27,9 @@ const Navbar = () => {
               : "bg-white text-black"
           }`}
         >
-          <div className="w-[150px] logo font-bold text-lg line-through">
+          <button onClick={()=>router.push("/")} type="button" className="w-[150px] logo font-bold text-lg line-through hover:cursor-pointer">
             ARt<span className=" transform rotate-180">i</span>lARy
-          </div>
+          </button>
           <button
             type="button"
             onClick={handleDisplayMenu}
